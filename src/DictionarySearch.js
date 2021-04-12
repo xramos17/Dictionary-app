@@ -14,9 +14,6 @@ export default function DictionarySearch(){
    
     }
 
-   
-
-
     return(
         <div className="Dictionary-search text-center">
           <form onSubmit={search}>

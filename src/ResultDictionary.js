@@ -19,7 +19,7 @@ export default function ResultDictionary (props){
           
         </div>)
 
-    }else{
+    }else{ 
       return null ; 
     }
    

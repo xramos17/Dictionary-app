@@ -13,8 +13,8 @@ return (
             </div>
         );
     })}
-    <p> {props.meaning.definition[0].definition}</p>
-    <p> {props.meaning.definition[0].example}
+    <p> {props.meaning.definitions[0].definition}</p>
+    <p> {props.meaning.definitions[0].example}
     </p>
     </div>
 );

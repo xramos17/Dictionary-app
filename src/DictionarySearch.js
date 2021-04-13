@@ -6,7 +6,7 @@ import ResultDictionary from "./ResultDictionary.js"
 export default function DictionarySearch(){
 
 let [keyword, setKeyword] = useState("");
-let [results, setResults] = useState({});
+let [results, setResults] = useState(null);
 
 
 function handleResponse(response){

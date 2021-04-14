@@ -13,7 +13,9 @@ return (
             </div>
         );
     })}
+    <h5>Definition</h5>
     <p> {props.meaning.definitions[0].definition}</p>
+    <h5>Example</h5>
     <p> {props.meaning.definitions[0].example}
     </p>
     </div>

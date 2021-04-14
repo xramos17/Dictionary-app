@@ -14,7 +14,11 @@ return (
     {props.meaning.definitions.map(function(definition, index){
         return (
 <div key={index}>
-{definition.example}
+ <p>
+              {definition.definition}
+              <br />
+              <em>{definition.example}</em>
+            </p>
 
 
 <div>
